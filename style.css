@@ -1,0 +1,34 @@
+body {
+  background-color: #2f6690;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+svg {
+  margin-top: 100px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 10px 10px 4px #16425b;
+}
+.bar {
+  fill: #3a7ca5;
+}
+.bar:hover {
+  fill: lightyellow;
+}
+#title {
+  font-size: 2em;
+}
+#tooltip {
+  position: absolute;
+  background-color: lightyellow;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.axis-label {
+  font-size: 16px;
+}
+.info-label {
+  font-size: 10px;
+}
